@@ -1,0 +1,206 @@
+#Header1 {
+	
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+	color:black;
+	background-color: silver;
+	border-left: 20px solid gray;
+	
+	
+}
+body {
+	
+
+	background-color:lightgray
+	
+	
+
+}
+
+#subjectList {
+	
+	font-size: 14.5px;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	background-color: gray;
+	float:left;
+	display:inline;
+	width:100%;
+}
+
+#subjectList li {
+	
+	display:inline;
+	
+}
+
+#subjectList li:hover {
+	
+	background-color:lightgray;
+	max-height:100px;
+	
+}
+
+.hiddenHover {
+	
+	display:inline-block;
+	height:0px;
+	color:yellow;
+	float:left;
+	
+}
+#subjectList ~ .hiddenHover:hover {
+	
+	display:inline-block;
+	height:100px;
+	
+}
+
+
+a {
+	text-decoration:none;
+	color: white;
+
+
+}
+
+a:hover {
+
+	text-decoration:underline;
+
+}
+
+#intro {
+	
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	border-color: black;
+	text-align: left;
+	background-color: white;
+	max-width: 66.66%;
+	padding: 2px;
+	
+	
+}
+
+.column {
+	
+	float: left;
+	width: 60%;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	border-color: black;
+	text-align: left;
+	background-color: white;
+	max-width: 60%;
+	border: 2px solid grey;
+    border-radius: 5px;
+	
+	
+	
+}
+
+.columnright {
+	
+	float:right;
+	width: 33%;
+	font-family: "Courier New", Courier, monospace;
+	color: black;
+	
+
+}
+
+
+
+/*.nav-main {
+	width: 100%;
+	background-color: gray;
+	font-size: 15px;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+	top:50px;
+	bottom:65px;
+	
+	
+	
+}
+
+.logo {
+	
+	float:left;
+	padding:0px;
+	
+}
+
+.nav-main > ul {
+	
+	margin:0;
+	padding:0;
+	float:left;
+	list-style-type:none;
+	
+}
+
+.nav-main > ul > li {
+	
+	float:left;
+	padding:0px;
+	
+
+}
+
+.nav-item {
+	
+	display:inline-block;
+	padding:0px;
+}
+
+.nav-item:hover {
+	
+	background-color:lightgray;
+	
+}
+
+.nav-content {
+	
+	position:absolute;
+	top:95px;
+	overflow:hidden;
+	background-color:grey;
+	padding:0px;
+	max-height:0px;
+}
+
+.nav-sub {
+	padding:5px;
+}
+
+.nav-sub ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	
+	
+}
+
+.nav-sub ul li a {
+	
+	display:inline-block;
+	padding: 2px 0;
+	
+	
+}
+
+.nav-content:focus {
+	
+	background-color:yellow;
+	max-height:500px;
+}
+
+.nav-item:focus ~ nav-content {
+	max-height:500px;
+	
+}
+*/
+
+
